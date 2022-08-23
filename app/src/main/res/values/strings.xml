@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dendere Homes</string>
+    <string name="title_activity_on_boarding">OnBoardingActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="dendere" tools:ignore="ExtraTranslation">Dendere</string>
+    <string name="homes" tools:ignore="ExtraTranslation">Homes</string>
+</resources>
