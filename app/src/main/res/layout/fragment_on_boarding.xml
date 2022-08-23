@@ -15,7 +15,7 @@
         android:layout_margin="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/ic_amico"
         tools:src="@tools:sample/avatars" />
 
@@ -23,7 +23,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/onBoardingImageView">
@@ -35,7 +37,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:padding="10dp"
-            android:text="Welcom to dendere homes"
+            android:text="Welcome to Dendere Homes"
             android:textSize="18sp" />
 
         <TextView
@@ -48,5 +50,7 @@
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1" />
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
