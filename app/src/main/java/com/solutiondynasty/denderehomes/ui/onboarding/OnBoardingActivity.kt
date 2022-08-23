@@ -3,12 +3,11 @@ package com.solutiondynasty.denderehomes.ui.onboarding
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import com.solutiondynasty.denderehomes.databinding.ActivityOnBoardingBinding
-import com.solutiondynasty.denderehomes.ui.auth.AuthanticationActivity
+import com.solutiondynasty.denderehomes.ui.auth.AuthenticationActivity
 
 
 class OnBoardingActivity : AppCompatActivity() {
@@ -45,7 +44,7 @@ class OnBoardingActivity : AppCompatActivity() {
         }
 
         binding.skipButton.setOnClickListener{
-            val intent = Intent(this, AuthanticationActivity::class.java)
+            val intent = Intent(this, AuthenticationActivity::class.java)
             startActivity(intent)
         }
     }
