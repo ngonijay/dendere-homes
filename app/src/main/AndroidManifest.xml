@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DendereHomes">
         <activity
+            android:name=".ui.home.main.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.auth.AuthenticationActivity"
             android:exported="false" />
         <activity
@@ -25,10 +28,10 @@
             android:name=".ui.onboarding.OnBoardingActivity"
             android:exported="true"
             android:label="@string/title_activity_on_boarding"
-            android:theme="@style/Theme.DendereHomes.NoActionBar"></activity>
+            android:theme="@style/Theme.DendereHomes.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

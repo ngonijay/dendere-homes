@@ -1,5 +1,6 @@
 package com.solutiondynasty.denderehomes.ui.auth
 
+import android.content.Intent
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +10,7 @@ import android.view.ViewGroup
 import com.solutiondynasty.denderehomes.R
 import com.solutiondynasty.denderehomes.databinding.FragmentOnBoardingBinding
 import com.solutiondynasty.denderehomes.databinding.SignInFragmentBinding
+import com.solutiondynasty.denderehomes.ui.home.main.HomeActivity
 
 
 class SignInFragment : Fragment() {
@@ -49,7 +51,8 @@ class SignInFragment : Fragment() {
     }
 
     private fun signIn() {
-
+        val intent = Intent(activity, HomeActivity::class.java)
+        startActivity(intent)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentRequests">
+
+    <fragment
+        android:id="@+id/fragmentRequests"
+        android:name="com.solutiondynasty.denderehomes.ui.home.main.requests.RequestsFragment"
+        android:label="Home"
+        tools:layout="@layout/requests_fragment" />
+
+    <fragment
+        android:id="@+id/fragmentNotifications"
+        android:name="com.solutiondynasty.denderehomes.ui.home.main.notifications.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/notifications_fragment" />
+
+    <fragment
+        android:id="@+id/fragmentMyListings"
+        android:name="com.solutiondynasty.denderehomes.ui.home.main.mylistings.MyListingsFragment"
+        android:label="My Listings"
+        tools:layout="@layout/my_listings_fragment" />
+
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.solutiondynasty.denderehomes.ui.home.main.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
+
+</navigation>

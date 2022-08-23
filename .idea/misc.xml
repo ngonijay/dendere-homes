@@ -6,13 +6,19 @@
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/drawable/default_dot.xml" value="0.1" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/drawable/selected_dot.xml" value="0.1" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/drawable/tab_selector.xml" value="0.1" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/activity_on_boarding.xml" value="0.264" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/authantication_activity.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/fragment_home.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/fragment_item_list.xml" value="0.1984375" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/fragment_on_boarding.xml" value="0.2" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/fragment_sign_up.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/general_light_toolbar.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/my_listings_fragment.xml" value="0.1484375" />
         <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/layout/sign_in_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/ngonidzashe.jambo/StudioProjects/DendereHomes/app/src/main/res/menu/menuactivity_main_drawer_items.xml" value="0.1" />
       </map>
     </option>
   </component>
