@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/sign_in"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.auth.SignInFragment">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.auth.SignUpFragment">
     <include
         android:id="@+id/toolbar_include"
         layout="@layout/general_light_toolbar"
@@ -50,22 +48,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView">
 
                 <TextView
-                    android:id="@+id/welcomeBackLbl"
+                    android:id="@+id/getStartedLbl"
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Welcome back!"
+                    android:text="Get Started!"
                     android:textColor="@color/teal_300"
                     android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/onBoardingTxt"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="hello there login to continue"
-                    android:textSize="16sp"
-                    tools:layout_constraintLeft_creator="1"
-                    tools:layout_constraintTop_creator="1" />
             </LinearLayout>
 
             <LinearLayout
@@ -82,16 +72,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/usernameTextField"
+                    android:id="@+id/phoneNumberTextField"
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="username"
+                    android:hint="phone number"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/usernameText"
+                        android:id="@+id/phoneNumberText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/teal_100"
@@ -119,6 +109,26 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordConfirmationTextField"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="confirm password"
+                    android:singleLine="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordConfirmationTex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/teal_100"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -128,22 +138,10 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView">
 
                     <RadioButton
-                        android:id="@+id/rememberMeRadioButton"
+                        android:id="@+id/agreeToTermsAndConditions"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Remember me" />
-
-                    <TextView
-                        android:id="@+id/ForgotPasswordTxt"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="Forgot password?"
-                        android:textColor="@color/teal_300"
-                        android:textSize="16sp"
-                        tools:layout_constraintLeft_creator="1"
-                        tools:layout_constraintTop_creator="1" />
+                        android:text="I agree to the Terms of Service and Privacy Policy" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -163,11 +161,11 @@
 
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/signInButton"
+                    android:id="@+id/signUpBtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/teal_700"
-                    android:text="Sign IN"
+                    android:text="Sign UP"
                     app:cornerRadius="20dp" />
 
                 <LinearLayout
@@ -179,21 +177,20 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView">
 
                     <TextView
-                        android:id="@+id/signUpTxt"
+                        android:id="@+id/signInTxt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="Don't have an account?"
+                        android:text="Already have an account?"
                         android:textSize="16sp" />
-
                     <TextView
-                        android:id="@+id/signUpBtn"
+                        android:id="@+id/signInBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="start"
-                        android:text="Sign up"
+                        android:text="Sign in"
                         android:textColor="@color/teal_600"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -201,7 +198,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

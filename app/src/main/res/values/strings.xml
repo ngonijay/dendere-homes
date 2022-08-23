@@ -5,4 +5,6 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="dendere" tools:ignore="ExtraTranslation">Dendere</string>
     <string name="homes" tools:ignore="ExtraTranslation">Homes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
